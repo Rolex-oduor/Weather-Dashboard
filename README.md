@@ -13,7 +13,7 @@ WEATHER DATA WAS FETCHED FROM
 
 Open weather map API
 
-APP BUILT BY
+APP BUILT USING
 Css
 Html
 Javascript
