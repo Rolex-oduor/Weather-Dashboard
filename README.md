@@ -3,7 +3,7 @@
 A Responsive Web based weather app. 
 The app shows real time weather cast across different cities entered inthe city input search area/window
 
-APP FEATURES ARE DISPLAY OF
+APP FEATURES ARE A DISPLAY OF
 
 Tempareture
 Humidity
