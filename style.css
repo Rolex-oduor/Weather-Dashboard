@@ -3,36 +3,38 @@
 *{
   padding: 0;
   box-sizing: border border-box;
-  font-family: Arial, Helvetica, sans-serif ;
+  font-family: Verdana, Geneva, Tahoma, sans-serif, Tahoma, Geneva, Verdana, sans-serif Helvetica, sans-serif ;
   box-sizing: border-box;
 }
 
 body{
-background-color: rgba(0, 0, 0, 0.726);
+background-color: rgba(0, 0, 0, 0.904);
 }
 
 .card{
-  width: 90%;
-  max-width:  470px;
-  padding: 40px 35px;
+  width: 100%;
+  max-width:  550px;
+  padding: 50px 45px;
   border-radius: 20px;
-  color: white;
-  background: linear-gradient(135deg, hsla(271, 71%, 47%, 0.747)); #5b548a);
+  color:white;
+  background: linear-gradient(135deg, hsla(251, 23%, 18%, 0.904)); #5b548a);
   text text-align: center;
   margin: 100px auto 0;
 }
-.search{
+
+.search {
   justify-content: space-between;
   align-items: center;
   width: 100%;
   display: flex;
 
 }
+
 .search input{
   outline: 0;
   border:0 ;
-  color: #555555;
-  background: #ebfffc;
+  color:#fff;
+  background:rgba(255, 255, 255, 0.25);
   flex: 1;
   margin-right: 16px;
   font-size: 18px;
@@ -40,17 +42,65 @@ background-color: rgba(0, 0, 0, 0.726);
   height: 60px;
   border-radius: 30px;
 }
+
 .search button{
-background:#ffebeb ;
-border: 1;
+background:#f1ecec ;
+border: 10;
 outline: 0;
-border-radius: 50%;
+border: radius 65px;%;
 cursor: pointer;
-width:  60%;
+width: 15%;
 height: 60px;
 
 }
 
 .search button img{
-  width:  16px;
+  width:  50px;
 }
+
+.weather-icon{
+
+width: 140px;
+margin: top 45px;0px ;
+}
+
+.weather h1{
+  font-size: 100px;
+  font-weight: 70;
+}
+
+.weather h2{
+  font-size: 60px;
+  font-weight: 200;
+ margin-top: -8px;
+}
+
+.details{
+  align-items: center;
+  display:flex ;
+  justify-content:space-between ;
+ padding: 0 20px;
+}
+
+.col{
+  text-align: left;
+  align-items: center;
+  display: flex;
+}
+
+.col img{
+  margin: right 20px; 
+  width:70px; 
+  }
+
+  .weather img{
+   margin: right 10px; ;
+   align-items: center;
+   width: 70px;
+  }
+
+  .humidity , .wind {
+    margin top: -4px;
+    font-size: 100:
+    }
+    
