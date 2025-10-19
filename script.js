@@ -8,7 +8,7 @@ const weatherIcon = document.querySelector(".weather-icon");
 async function checkWeather(city) {
   const response = await fetch(`${apiUrl + city}&appid=${apiKey}`);
 
-  if (response.status == 404) {
+  if (response.status === 404) {
     alert("City not found!");
     return;
   }
@@ -21,7 +21,7 @@ async function checkWeather(city) {
   document.querySelector(".humidity").innerHTML = data.main.humidity + "%";
   document.querySelector(".wind").innerHTML = data.wind.speed + " Km/h";
 
-}
+ 
 
 searchBtn.addEventListener("click", () => {
   checkWeather(searchBox.value.trim());
